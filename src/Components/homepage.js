@@ -69,7 +69,7 @@ function HomePage() {
             <div className="col">
                 <div className="rows">
                     <div className="box">
-                        <Image  className="Ellipse" src={`${process.env.PUBLIC_URL}/Ellipse 17.svg`}>
+                        <Image  className="Ellipse" src={`${process.env.PUBLIC_URL}/Ellipse 17.svg`}/>
                         <Image  className="logo" src="/web-design.svg"/>
                         <div className="text">Web<br/>Design</div>
                         <div className="text-flex">
