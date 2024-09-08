@@ -1,0 +1,1581 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+
+.screen{
+    width:100%;
+    height: fit-content;
+    background-color:#181C1C;
+    display: flex;
+    flex-direction: column;
+}
+
+.rectangle{
+    width: 78vw;
+    height: 82px;
+    border-radius: 16px;
+    background: #272B2B;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.name{
+    display: flex;
+    color:#F56565;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 5vw;
+    white-space: nowrap;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    color:#FED7D7;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; 
+    gap:2.5vw;
+    padding-left: 40vw;
+    padding-right: 5vw;
+    white-space: nowrap;
+}
+
+.body{
+    flex-direction: row;
+    display: flex;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    padding-left: 13vw;
+}
+
+.line1{
+    color:#F56565;
+    font-family: 'Raleway';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    white-space: nowrap;
+}
+
+
+.line2{
+    color:#FED7D7;
+    font-family: 'Raleway';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+    padding-top: 20px;
+    white-space: nowrap;
+}
+
+.des{
+    color:#FFF5F5;
+    font-family:'Raleway';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.54px;
+    opacity: 0.7;
+    padding-top: 32px;
+    padding-bottom: 40px;
+}
+
+.btn{
+    background-color: rgba(255, 255, 255, 0.12);
+    color: #F7FAFC;
+    width: 12vw;
+    height: 50px;
+    padding: 0px 24px;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-family:'Raleway';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    white-space: nowrap;
+    display: flex;
+}
+
+.btn1{
+    background-color: rgba(255, 255, 255, 0.12);
+    color: #F7FAFC;
+    width: 12vw;
+    height: 50px;
+    padding: 0px 24px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-family:'Raleway';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    white-space: nowrap;
+    display: none;
+}
+
+.home{
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
+.body2{
+    flex-direction: column;
+    display: flex;
+    padding-top: 200px;
+    padding-left: 13vw;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Raleway';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.po{
+    color: #F56565;
+    padding-right: 0.7vw;
+    white-space: nowrap;
+}
+
+.as{
+    color: #FED7D7;
+    white-space: nowrap;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+}
+
+.rows{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 64px;
+}
+
+.rows-1{
+    display: none;
+    flex-direction: row;
+    padding-bottom: 64px;
+}
+
+.box{
+    width: 264px;
+    height: 360px;
+    border-radius: 4px;
+    background: #272B2B;
+}
+
+.box1{
+    width: 264px;
+    height: 360px;
+    border-radius: 4px;
+    background: #272B2B;
+    margin-left: 64px;
+}
+
+.box-title{
+    display: flex;
+    flex-direction: column;
+}
+
+.Ellipse{
+    padding-left: 38px;
+    padding-top: 31px;
+}
+
+.logo{
+ padding-left: 54px;
+ margin-top: -45px;
+}
+
+.text{
+    color:#FED7D7;
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 28.8px */
+    padding-top: 36px;
+    padding-left: 38px;
+}
+
+.text1{
+    color:#FED7D7;
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 28.8px */
+    padding-top: 30px;
+    padding-left: 38px;
+}
+
+.logo1{
+    padding-left: 35px;
+    padding-top: 33px;
+}
+
+.text-flex{
+    color:#FED7D7;
+    font-family:'Raleway';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 21px */
+    padding-top: 26px;
+    padding-left: 38px;
+}
+
+.text-flex-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.box-text{
+    color:#F56565;
+    padding-left: 5px;
+}
+
+.box-text-1{
+    color:#F56565;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.box-text-2{
+    color:#F56565;
+    padding-right: 5px;
+}
+.box-text-3{
+    color:#F56565;
+}
+
+.body3{
+    flex-direction: column;
+    display: flex;
+    padding-top: 100px;
+    padding-left: 13vw;
+}
+
+.sub-profile{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Raleway';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.outline-rows{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 64px;
+}
+
+.outline{
+    display: flex;
+    flex-direction: column;
+    width: 546px;
+    height: 475px;
+    gap: 12px;
+    border-radius: 4px;
+    border: 3px solid #272B2B;
+    margin-left: 60px;
+
+}
+
+.img{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.outline-text{
+    display: flex;
+    flex-direction: row;
+    padding-top: 8px;
+    font-family:'Raleway';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 150% */
+    color: #FED7D7;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.outline-text2{
+    font-family:'Raleway';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; 
+    color: #FED7D7;
+    margin-top: -15px;
+    margin-left: 200px;
+    
+}
+
+.outline-btn{
+    background-color:#F56565;
+    color: #F7FAFC;
+    width: 150px;
+    height: 40px;
+    padding: 0px 24px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-family:'Raleway';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-left: 190px;
+    white-space: nowrap;
+}
+
+.footer{
+    width: 100%;
+    height: 210px;
+    margin-top: 145px;
+    background: #272B2B;
+    display: flex;
+    flex-direction: column;
+}
+
+.footertext{
+    color:#FED7D7;
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 83.333% */
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 111.111% */
+    white-space: nowrap;
+}
+
+.icon{
+    padding-top: 40px;
+}
+
+.icon2{
+    padding-top: 40px;
+    padding-left: 900px;
+}
+
+.icon3{
+    padding-top: 20px;
+    padding-left: 1015px;
+}
+
+.icon4{
+    padding-top: 20px;
+}
+
+.email1{
+    color:#FED7D7;
+    padding-top: 40px;
+    padding-left: 14px; 
+}
+
+.email2{
+    color:#FED7D7;
+    padding-top: 20px;
+    padding-left: 14px; 
+}
+
+
+@media (max-width:1420px){
+    .home{
+        padding-left: 100px;
+        padding-top: 60px;
+        width: 420px;
+    }
+
+    .sub-profile{
+        font-size: 28px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .outline{
+        width: 500px;
+        height: 460px;
+        margin-left: 28px;
+        margin-bottom: 0px;
+    }
+    .outline-text{
+        font-size: 18px;
+        padding-top: 4px;
+    }
+    .outline-text2{
+        font-size: 18px;
+        margin-left: 170px;
+    }
+    .outline-btn{
+        width: 130px;
+        height: 40px;
+        font-size: 16px;
+        margin-left: 170px;
+    }
+    .footertext{
+        font-size: 22px;
+        padding-left: 80px;
+    }
+    .footer1{
+        font-size: 17px;
+        padding-left: 80px;
+    }
+    .email{
+        display: none;
+    }
+    .email3{
+        display: none;
+    }
+    .email1{
+        padding-left: 8px;
+    }
+    .email2{
+        padding-left: 8px;
+    }
+    .icon2{
+        padding-left: 815px;
+    }
+    .icon3{
+        padding-left: 925px;
+    }
+}
+
+@media (max-width: 1280px){
+    .name{
+        font-size: 18px;
+    }
+
+    .navbar{
+        padding-left: 35vw;
+        font-size:15px;
+    }
+    .line1{
+        font-size: 75px;
+    }
+    .line2{
+        font-size: 34px;
+        padding-top: 19px;
+    }
+    .des{
+        font-size: 17px;
+        padding-top: 31px;
+        padding-bottom: 39px;
+    }
+    .btn{
+        width: 12vw;
+        font-size:12px;
+    }
+    .home{
+        padding-left: 100px;
+        padding-top: 60px;
+        width: 400px;
+    }
+    .profile{
+        font-size: 38px;
+    }
+    .rows{
+        display: flex;
+        padding-bottom: 0px;
+    }
+    .rows-1{
+        display: none;
+    }
+    .box{
+        margin-bottom: 30px;
+        width: 240px;
+        height: 300px;
+    }
+    .box1{
+        margin-bottom:30px;
+        width: 240px;
+        height: 300px;
+        margin-left: 40px;
+    }
+    .text{
+        font-size: 19px;
+    }
+    .text1{
+        font-size: 19px;
+    }
+    .text-flex{
+        font-size: 13px;
+    }
+    .sub-profile{
+        font-size: 26px;
+        padding-top: 36px;
+        padding-bottom: 30px;
+    }
+    .outline{
+        width: 455px;
+        height: 425px;
+        margin-left: 28px;
+        margin-bottom: 0px;
+    }
+    .outline-text{
+        font-size: 17px;
+        padding-top: 4px;
+    }
+    .outline-text2{
+        font-size: 17px;
+        margin-left: 160px;
+    }
+    .outline-btn{
+        width: 130px;
+        height: 37px;
+        font-size: 16px;
+        margin-left: 155px;
+    }
+    .footertext{
+        font-size: 22px;
+        padding-left: 90px;
+    }
+    .footer1{
+        font-size: 16px;
+        padding-left: 90px;
+    }
+    .email{
+        display: none;
+    }
+    .email3{
+        display: none;
+    }
+    .email1{
+        padding-left: 8px;
+    }
+    .email2{
+        padding-left: 8px;
+    }
+    .icon2{
+        padding-left: 680px;
+    }
+    .icon3{
+        padding-left: 780px;
+    }
+   
+} 
+
+@media(max-width:1150px){
+    .home{
+        padding-left: 70px;
+        padding-top: 60px;
+        width: 350px;
+    }
+    .sub-profile{
+        font-size: 24px;
+        padding-top: 32px;
+        padding-bottom: 30px;
+    }
+    .outline{
+        width: 400px;
+        height: 390px;
+        margin-left: 24px;
+        margin-bottom: 0px;
+    }
+    .outline-text{
+        font-size: 15px;
+        padding-top: 4px;
+    }
+    .outline-text2{
+        font-size: 15px;
+        margin-left: 135px;
+    }
+    .outline-btn{
+        width: 120px;
+        height: 35px;
+        font-size: 14px;
+        margin-left: 135px;
+    }
+    .footertext{
+        font-size: 22px;
+        padding-left: 80px;
+    }
+    .footer1{
+        font-size: 15px;
+        padding-left: 80px;
+    }
+    .email{
+        display: none;
+    }
+    .email3{
+        display: none;
+    }
+    .email1{
+        padding-left: 8px;
+    }
+    .email2{
+        padding-left: 8px;
+    }
+    .icon2{
+        padding-left: 560px;
+    }
+    .icon3{
+        padding-left: 655px;
+    } 
+}
+
+@media (max-width: 1020px){
+    .navbar{
+        padding-left: 31vw;
+        font-size: 14px;
+    }
+    .line1{
+        font-size: 70px;
+    }
+    .line2{
+        font-size: 32px;
+        padding-top: 18px;
+    }
+    .des{
+        font-size: 16px;
+        padding-top: 30px;
+        padding-bottom: 38px;
+    }
+    .btn{
+        width: 12vw;
+        font-size: 10px;
+    }
+    .home{
+        padding-left: 10px;
+        padding-top: 60px;
+        width: 250px;
+    }
+    .profile{
+        font-size: 36px;
+    }
+    .rows{
+        display: flex;
+        padding-bottom: 0px;
+    }
+    .rows-1{
+        display: none;
+    }
+    .box{
+        margin-bottom: 30px;
+        width: 220px;
+        height: 300px;
+    }
+    .box1{
+        margin-bottom:30px;
+        width: 220px;
+        height: 300px;
+        margin-left: 35px;
+    }
+    .text{
+        font-size: 18px;
+    }
+    .text1{
+        font-size: 18px;
+    }
+    .text-flex{
+        font-size: 12px;
+    }
+    .sub-profile{
+        font-size: 24px;
+        padding-top: 32px;
+        padding-bottom: 30px;
+    }
+    .outline{
+        width: 350px;
+        height: 360px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+    }
+    .outline-text{
+        font-size: 13px;
+        padding-top: 4px;
+    }
+    .outline-text2{
+        font-size: 13px;
+        margin-left: 125px;
+    }
+    .outline-btn{
+        width: 110px;
+        height: 34px;
+        font-size: 13px;
+        margin-left: 120px;
+    }
+    .footertext{
+        font-size: 22px;
+        padding-left: 80px;
+    }
+    .footer1{
+        font-size: 14px;
+        padding-left: 80px;
+    }
+    .email{
+        display: none;
+    }
+    .email3{
+        display: none;
+    }
+    .email1{
+        padding-left: 8px;
+    }
+    .email2{
+        padding-left: 8px;
+    }
+    .icon2{
+        padding-left: 450px;
+    }
+    .icon3{
+        padding-left: 540px;
+    }
+} 
+
+@media (max-width: 900px){
+    .navbar{
+        padding-left: 27vw;
+    }
+    .line1{
+        font-size: 65px;
+    }
+    .line2{
+        font-size: 30px;
+        padding-top: 17px;
+    }
+    .des{
+        font-size: 15px;
+        padding-top: 29px;
+        padding-bottom: 37px;
+    }
+    .btn{
+        width: 12vw;
+        font-size: 9px;
+    }
+    .home{
+        display: none;
+    }
+    .profile{
+        font-size: 34px;
+    }
+    .rows{
+        display: flex;
+        padding-bottom: 0px;
+    }
+    .rows-1{
+        display: none;
+    }
+    .box{
+        margin-bottom: 30px;
+        width: 210px;
+        height: 300px;
+    }
+    .box1{
+        margin-bottom:30px;
+        width: 210px;
+        height: 300px;
+        margin-left: 25px;
+    }
+    .text{
+        font-size: 17px;
+    }
+    .text1{
+        font-size: 17px;
+    }
+    .text-flex{
+        font-size: 11px;
+    }
+    .sub-profile{
+        font-size: 22px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .outline{
+        width: 330px;
+        height: 340px;
+        margin-left: 16px;
+        margin-bottom: 0px;
+    }
+    .outline-text{
+        font-size: 12px;
+        padding-top: 4px;
+    }
+    .outline-text2{
+        font-size: 12px;
+        margin-left: 115px;
+    }
+    .outline-btn{
+        width: 100px;
+        height: 32px;
+        font-size: 12px;
+        margin-left: 110px;
+    }
+    .footertext{
+        font-size: 22px;
+        padding-left: 80px;
+    }
+    .footer1{
+        font-size: 14px;
+        padding-left: 80px;
+    }
+    .email{
+        display: none;
+    }
+    .email3{
+        display: none;
+    }
+    .email1{
+        padding-left: 8px;
+    }
+    .email2{
+        padding-left: 8px;
+    }
+    .icon2{
+        padding-left: 375px;
+    }
+    .icon3{
+        padding-left: 465px;
+    }
+} 
+
+@media (max-width: 830px){
+    .navbar{
+        padding-left: 25vw;
+    }
+    .line1{
+        font-size: 60px;
+    }
+    .line2{
+        font-size: 28px;
+        padding-top: 16px;
+    }
+    .des{
+        font-size: 14px;
+        padding-top: 28px;
+        padding-bottom: 36px;
+    }
+    .btn{
+        display: none;
+    }
+    .btn1{
+        display: flex;
+    }
+    .profile{
+        font-size: 32px;
+    }
+    .rows{
+        display: flex;
+        padding-bottom: 0px;
+    }
+    .rows-1{
+        display: none;
+    }
+    .box{
+        margin-bottom: 30px;
+        width: 200px;
+        height: 300px;
+    }
+    .box1{
+        margin-bottom:30px;
+        width: 200px;
+        height: 300px;
+        margin-left: 20px;
+    }
+    .text{
+        font-size: 16px;
+    }
+    .text1{
+        font-size: 16px;
+    }
+    .text-flex{
+        font-size: 10px;
+    }
+    .sub-profile{
+        font-size: 22px;
+        padding-top: 28px;
+        padding-bottom: 30px;
+    }
+    .outline{
+        width: 300px;
+        height: 310px;
+        margin-left: 16px;
+        margin-bottom: 0px;
+    }
+    .outline-text{
+        font-size: 11px;
+        padding-top: 4px;
+    }
+    .outline-text2{
+        font-size: 11px;
+        margin-left: 110px;
+    }
+    .outline-btn{
+        width: 90px;
+        height: 30px;
+        font-size: 11px;
+        margin-left: 100px;
+    }
+    .footertext{
+        font-size: 22px;
+        padding-left: 70px;
+    }
+    .footer1{
+        font-size: 13px;
+        padding-left: 70px;
+    }
+    .email{
+        display: none;
+    }
+    .email3{
+        display: none;
+    }
+    .email1{
+        padding-left: 8px;
+    }
+    .email2{
+        padding-left: 8px;
+    }
+    .icon2{
+        padding-left: 320px;
+    }
+    .icon3{
+        padding-left: 405px;
+    }
+} 
+
+@media (max-width: 768px){
+    .name{
+        font-size: 16px;
+    }
+
+    .navbar{
+        padding-left: 25vw;
+        font-size: 12px;
+    }
+    .line1{
+        font-size: 55px;
+    }
+    .line2{
+        font-size: 26px;
+        padding-top: 15px;
+    }
+    .des{
+        font-size: 13px;
+        padding-top: 27px;
+        padding-bottom: 35px;
+    }
+    .btn{
+        display: none;
+    }
+    .btn1{
+        display: flex;
+        font-size: 11px;
+    }
+    .profile{
+        font-size: 30px;
+    }
+    .rows{
+        display: none;
+    }
+    .rows-1{
+        display: flex;
+        padding-bottom: 0px;
+    }
+    .box{
+        margin-bottom: 30px;
+        width: 230px;
+        height: 300px;
+    }
+    .box1{
+        margin-bottom:30px;
+        width: 230px;
+        height: 300px;
+        margin-left: 50px;
+    }
+    .text{
+        font-size: 19px;
+    }
+    .text1{
+        font-size: 18px;
+    }
+    .text-flex{
+        font-size: 13px;
+    }
+    .sub-profile{
+        font-size: 25px;
+        padding-top: 28px;
+        padding-bottom: 30px;
+    }
+    .outline-rows{
+        flex-direction: column;
+        padding-bottom:0px;
+    }
+    .outline{
+        width: 520px;
+        height: 500px;
+        margin-left: 0px;
+        margin-bottom: 36px;
+    }
+    .outline-text{
+        font-size: 19px;
+        padding-top: 4px;
+    }
+    .outline-text2{
+        font-size: 19px;
+        margin-left: 170px;
+    }
+    .outline-btn{
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+        margin-left: 185px;
+    }
+    .footertext{
+        font-size: 22px;
+        padding-left: 60px;
+    }
+    .footer1{
+        font-size: 13px;
+        padding-left: 60px;
+    }
+    .email{
+        display: none;
+    }
+    .email3{
+        display: none;
+    }
+    .email1{
+        padding-left: 8px;
+    }
+    .email2{
+        padding-left: 8px;
+    }
+    .icon2{
+        padding-left: 240px;
+    }
+    .icon3{
+        padding-left: 320px;
+    }
+} 
+
+@media (max-width: 670px){
+    .rectangle{
+        height: 70px;
+    }
+    .navbar{
+        padding-left: 22vw;
+        font-size: 11px;
+    }
+    .line1{
+        font-size: 50px;
+    }
+    .line2{
+        font-size: 24px;
+        padding-top: 14px;
+    }
+    .des{
+        font-size: 12px;
+        padding-top: 26px;
+        padding-bottom: 34px;
+    }
+    .btn{
+        display: none;
+    }
+    .btn1{
+        display: flex;
+        font-size: 10px;
+    }
+    .profile{
+        font-size: 28px;
+    }
+    .rows{
+        display: none;
+    }
+    .rows-1{
+        display: flex;
+        padding-bottom: 0px;
+    }
+    .box{
+        margin-bottom: 30px;
+        width: 210px;
+        height: 300px;
+    }
+    .box1{
+        margin-bottom:30px;
+        width: 210px;
+        height: 300px;
+        margin-left: 40px;
+    }
+    .text{
+        font-size: 18px;
+    }
+    .text1{
+        font-size: 18px;
+    }
+    .text-flex{
+        font-size: 11px;
+    }
+    .sub-profile{
+        font-size: 23px;
+        padding-top: 28px;
+        padding-bottom: 30px;
+    }
+    .outline-rows{
+        flex-direction: column;
+        padding-bottom:0px;
+    }
+    .outline{
+        width: 420px;
+        height: 400px;
+        margin-left: 0px;
+        margin-bottom: 36px;
+    }
+    .outline-text{
+        font-size: 16px;
+        padding-top: 4px;
+    }
+    .outline-text2{
+        font-size: 16px;
+        margin-left: 155px;
+    }
+    .outline-btn{
+        width: 110px;
+        height: 35px;
+        font-size: 13px;
+        margin-left: 140px;
+    }
+    .footertext{
+        font-size: 20px;
+        padding-left: 50px;
+    }
+    .footer1{
+        font-size: 12px;
+        padding-left: 50px;
+    }
+    .email{
+        display: none;
+    }
+    .email3{
+        display: none;
+    }
+    .email1{
+        padding-left: 8px;
+    }
+    .email2{
+        padding-left: 8px;
+    }
+    .icon2{
+        padding-left: 170px;
+    }
+    .icon3{
+        padding-left: 245px;
+    }
+}
+
+@media (max-width: 570px){
+    .rectangle{
+        height: 60px;
+    }
+    .navbar{
+        padding-left: 18vw;
+        font-size: 10px;
+    }
+    .name{
+        padding-top: 17px;
+    }
+    .line1{
+        font-size: 45px;
+    }
+    .line2{
+        font-size: 22px;
+        padding-top: 13px;
+    }
+    .des{
+        font-size: 11px;
+        padding-top: 25px;
+        padding-bottom: 33px;
+    }
+    .btn{
+        display: none;
+    }
+    .btn1{
+        display: flex;
+        font-size: 10px;
+        height: 44px;
+        width: 15vw;
+    }
+    .profile{
+        font-size: 26px;
+    }
+    .rows{
+        display: none;
+    }
+    .rows-1{
+        display: flex;
+        padding-bottom: 0px;
+    }
+    .box{
+        margin-bottom: 30px;
+        width: 200px;
+        height: 300px;
+    }
+    .box1{
+        margin-bottom:30px;
+        width: 200px;
+        height: 300px;
+        margin-left: 30px;
+    }
+    .text{
+        font-size: 16px;
+    }
+    .text1{
+        font-size: 16px;
+    }
+    .text-flex{
+        font-size: 10px;
+    }
+    .sub-profile{
+        font-size: 21px;
+        padding-top: 28px;
+        padding-bottom: 30px;
+    }
+    .outline-rows{
+        flex-direction: column;
+        padding-bottom:0px;
+    }
+    .outline{
+        width: 370px;
+        height: 350px;
+        margin-left: 0px;
+        margin-bottom: 36px;
+    }
+    .outline-text{
+        font-size: 14px;
+        padding-top: 4px;
+    }
+    .outline-text2{
+        font-size: 14px;
+        margin-left: 125px;
+    }
+    .outline-btn{
+        width: 100px;
+        height: 35px;
+        font-size: 13px;
+        margin-left: 120px;
+    }
+    .footertext{
+        font-size: 18px;
+        padding-left: 30px;
+    }
+    .footer1{
+        font-size: 11px;
+        padding-left: 30px;
+    }
+    .email{
+        display: none;
+    }
+    .email3{
+        display: none;
+    }
+    .email1{
+        padding-left: 8px;
+    }
+    .email2{
+        padding-left: 8px;
+    }
+    .icon2{
+        padding-left: 125px;
+    }
+    .icon3{
+        padding-left: 195px;
+    }
+} 
+
+
+@media (max-width: 480px){
+    .rectangle{
+        height: 60px;
+    }
+    .name{
+        font-size: 13px;
+        padding-top: 19px;
+    }
+
+    .navbar{
+        padding-left: 12vw;
+        font-size: 10px;
+    }
+    .line1{
+        font-size: 40px;
+    }
+    .line2{
+        font-size: 20px;
+        padding-top: 12px;
+    }
+    .des{
+        font-size: 10px;
+        padding-top: 24px;
+        padding-bottom: 32px;
+    }
+    .btn{
+        display: none;
+    }
+    .btn1{
+        display: flex;
+        font-size: 9px;
+        gap:5px;
+        height: 42px;
+        width: 15vw;
+    }
+    .profile{
+        font-size: 24px;
+    }
+    .col{
+        padding-top: 36px;
+    }
+
+    .rows-1{
+        display: none;
+    }
+
+    .rows{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    .box{
+        margin-bottom: 30px;
+        width: 240px;
+        height: 300px;
+    }
+    .box1{
+        margin-bottom:30px;
+        width: 240px;
+        height: 300px;
+        margin-left: 0px;
+    }
+    .text{
+        font-size: 19px;
+    }
+    .text1{
+        font-size: 19px;
+    }
+    .text-flex{
+        font-size: 13px;
+    }
+    .sub-profile{
+        font-size: 19px;
+        padding-top: 28px;
+        padding-bottom: 30px;
+    }
+    .outline{
+        width: 330px;
+        height: 330px;
+        margin-left: 0px;
+        margin-bottom: 36px;
+    }
+    .outline-text{
+        font-size: 12px;
+        padding-top: 4px;
+    }
+    .outline-text2{
+        font-size: 12px;
+        margin-left: 110px;
+    }
+    .outline-btn{
+        width: 90px;
+        height: 32px;
+        font-size: 11px;
+        margin-left: 105px;
+    }
+    .footertext{
+        font-size: 17px;
+        padding-left: 30px;
+    }
+    .footer1{
+        font-size: 11px;
+        padding-left: 30px;
+    }
+    .email{
+        display: none;
+    }
+    .email3{
+        display: none;
+    }
+    .email1{
+        padding-left: 8px;
+    }
+    .email2{
+        padding-left: 8px;
+    }
+    .icon2{
+        padding-left: 80px;
+    }
+    .icon3{
+        padding-left: 150px;
+    }
+} 
+
+@media (max-width: 420px){
+    .rectangle{
+        height: 50px;
+    }
+    .navbar{
+        padding-left: 10vw;
+    }
+    .name{
+        padding-top: 15px;
+    }
+    .line1{
+        font-size: 35px;
+    }
+    .line2{
+        font-size: 18px;
+        padding-top: 11px;
+    }
+    .des{
+        font-size: 9px;
+        padding-top: 23px;
+        padding-bottom: 31px;
+    }
+    .btn{
+        display: none;
+    }
+    .btn1{
+        display: flex;
+        font-size: 8px;
+        gap:4px;
+        height: 40px;
+        width: 15vw;
+    }
+    .body2{
+        padding-top: 75px;
+    }
+    .profile{
+        font-size: 22px;
+    }
+    .col{
+        padding-top: 36px;
+    }
+
+    .rows-1{
+        display: none;
+    }
+
+    .rows{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    .box{
+        margin-bottom: 30px;
+        width: 220px;
+        height: 300px;
+    }
+    .box1{
+        margin-bottom:30px;
+        width: 220px;
+        height: 300px;
+        margin-left: 0px;
+    }
+    .text{
+        font-size: 17px;
+    }
+    .text1{
+        font-size: 17px;
+    }
+    .text-flex{
+        font-size: 11px;
+    }
+    .sub-profile{
+        font-size: 17px;
+        padding-top: 28px;
+        padding-bottom: 30px;
+    }
+    .outline{
+        width: 300px;
+        height: 320px;
+        margin-left: 0px;
+        margin-bottom: 36px;
+    }
+    .outline-text{
+        font-size: 11px;
+        padding-top: 4px;
+    }
+    .outline-text2{
+        font-size: 11px;
+        margin-left: 100px;
+    }
+    .outline-btn{
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
+        margin-left: 105px;
+    }
+    .footertext{
+        font-size: 16px;
+        padding-left: 30px;
+    }
+    .footer1{
+        font-size: 10px;
+        padding-left: 30px;
+    }
+    .email{
+        display: none;
+    }
+    .email3{
+        display: none;
+    }
+    .email1{
+        padding-left: 8px;
+    }
+    .email2{
+        padding-left: 8px;
+    }
+    .icon2{
+        padding-left: 60px;
+    }
+    .icon3{
+        padding-left: 125px;
+    }
+} 
