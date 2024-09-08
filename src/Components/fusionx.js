@@ -36,16 +36,16 @@ function FusionX(){
             <div className="pictures">
                 <button onClick={scrollLeft} className="scroll-button-l"><ArrowBackIcon/></button>
                 <div className="image-row" ref={carouselRef}>
-                    <Image src="/FusionX/homepage.svg" className="carousel-image" />
-                    <Image src="/FusionX/signup.svg" className="carousel-image" />
-                    <Image src="/FusionX/login.svg" className="carousel-image" />
-                    <Image src="/FusionX/userhome.svg" className="carousel-image" />
-                    <Image src="/FusionX/myaccount.svg" className="carousel-image" />
-                    <Image src="/FusionX/categories.svg" className="carousel-image" />
-                    <Image src="/FusionX/choosetheme.svg" className="carousel-image" />
-                    <Image src="/FusionX/customizetheme.svg" className="carousel-image" />
-                    <Image src="/FusionX/storedetails.svg" className="carousel-image" />
-                    <Image src="/FusionX/productdetails.svg" className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/FusionX/homepage.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/FusionX/signup.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/FusionX/login.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/FusionX/userhome.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/FusionX/myaccount.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/FusionX/categories.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/FusionX/choosetheme.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/FusionX/customizetheme.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/FusionX/storedetails.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/FusionX/productdetails.svg`} className="carousel-image" />
                 </div>
                 <button onClick={scrollRight} className="scroll-button-r"><ArrowForwardIcon/></button>
             </div>

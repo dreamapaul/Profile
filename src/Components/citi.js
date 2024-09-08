@@ -36,10 +36,10 @@ function CiTi(){
             <div className="pictures">
                 <button onClick={scrollLeft} className="scroll-button-l"><ArrowBackIcon/></button>
                 <div className="image-row" ref={carouselRef}>
-                    <Image src="/CiTi/home.png" className="carousel-image" />
-                    <Image src="/CiTi/login.png" className="carousel-image" />
-                    <Image src="/CiTi/purchase.png" className="carousel-image" />
-                    <Image src="/CiTi/tickets.png" className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/CiTi/home.png`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/CiTi/login.png`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/CiTi/purchase.png`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/CiTi/tickets.png`} className="carousel-image" />
                 </div>
                 <button onClick={scrollRight} className="scroll-button-r"><ArrowForwardIcon/></button>
             </div>

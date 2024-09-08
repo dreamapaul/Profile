@@ -36,13 +36,13 @@ function Template(){
             <div className="pictures">
                 <button onClick={scrollLeft} className="scroll-button-l"><ArrowBackIcon/></button>
                 <div className="image-row" ref={carouselRef}>
-                    <Image src="/Template/home.svg" className="carousel-image" />
-                    <Image src="/Template/signup.svg" className="carousel-image" />
-                    <Image src="/Template/login.svg" className="carousel-image" />
-                    <Image src="/Template/product.svg" className="carousel-image" />
-                    <Image src="/Template/cart.svg" className="carousel-image" />
-                    <Image src="/Template/contact.svg" className="carousel-image" />
-                    <Image src="/Template/productsummary.svg" className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/Template/home.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/Template/signup.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/Template/login.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/Template/product.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/Template/cart.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/Template/contact.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/Template/productsummary.svg`} className="carousel-image" />
                 </div>
                 <button onClick={scrollRight} className="scroll-button-r"><ArrowForwardIcon/></button>
             </div>

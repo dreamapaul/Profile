@@ -70,7 +70,7 @@ function HomePage() {
                 <div className="rows">
                     <div className="box">
                         <Image  className="Ellipse" src={`${process.env.PUBLIC_URL}/Ellipse 17.svg`}/>
-                        <Image  className="logo" src="/web-design.svg"/>
+                        <Image  className="logo" src={`${process.env.PUBLIC_URL}/web-design.svg`}/>
                         <div className="text">Web<br/>Design</div>
                         <div className="text-flex">
                             <div>Proficient in creating user-</div>
@@ -82,8 +82,8 @@ function HomePage() {
                     </div>
 
                     <div className="box1">
-                        <Image  className="Ellipse" src="/Ellipse 17.svg"/>
-                        <Image  className="logo" src="/front-end.svg"/>
+                        <Image  className="Ellipse" src={`${process.env.PUBLIC_URL}/Ellipse 17.svg`}/>
+                        <Image  className="logo" src={`${process.env.PUBLIC_URL}/front-end.svg`}/>
                         <div className="text1">Front-End<br/>Development</div>
                         <div className="text-flex">
                                 <div>Skilled in building<br/>responsive web pages with</div>
@@ -97,8 +97,8 @@ function HomePage() {
                     </div>
 
                     <div className="box1">
-                        <Image  className="Ellipse" src="/Ellipse 17.svg"/>
-                        <Image  className="logo" src="/back-end.svg"/>
+                        <Image  className="Ellipse" src={`${process.env.PUBLIC_URL}/Ellipse 17.svg`}/>
+                        <Image  className="logo" src={`${process.env.PUBLIC_URL}/back-end.svg`}/>
                         <div className="text">Back-End<br/>Development</div>
                         <div className="text-flex">
                             <div>Experienced in developing<br/>server-side applications </div>
@@ -119,8 +119,8 @@ function HomePage() {
 
                 <div className="rows">
                     <div className="box">
-                        <Image  className="Ellipse" src="/Ellipse 17.svg"/>
-                        <Image  className="logo" src="/other-language.svg"/>
+                        <Image  className="Ellipse" src={`${process.env.PUBLIC_URL}/Ellipse 17.svg`}/>
+                        <Image  className="logo" src={`${process.env.PUBLIC_URL}/other-language.svg`}/>
                         <div className="text">Programing<br/>Languages</div>
                         <div className="text-flex">
                             <div className="text-flex-1">
@@ -142,14 +142,14 @@ function HomePage() {
                         </div>
                     </div>
                     <div className="box1">
-                        <Image  className="Ellipse" src="/Ellipse 17.svg"/>
-                        <Image  className="logo" src="/cooking-baking.svg"/>
+                        <Image  className="Ellipse" src={`${process.env.PUBLIC_URL}/Ellipse 17.svg`}/>
+                        <Image  className="logo" src={`${process.env.PUBLIC_URL}/cooking-baking.svg`}/>
                         <div className="text">Cooking and<br/>Baking</div>
                         <div className="text-flex">I love experimenting in the<br/>kitchen, creating delicious<br/>meals and baked treats that<br/>bring joy to others.</div>
                     </div>
                     <div className="box1">
-                        <Image  className="Ellipse" src="/Ellipse 17.svg"/>
-                        <Image  className="logo" src="/singing.svg"/>
+                        <Image  className="Ellipse" src={`${process.env.PUBLIC_URL}/Ellipse 17.svg`}/>
+                        <Image  className="logo" src={`${process.env.PUBLIC_URL}/singing.svg`}/>
                         <div className="text">Sing and<br/>Unwind</div>
                         <div className="text-flex">Singing is my way of<br/>expressing creativity,<br/>whether it's belting out<br/>tunes for fun or performing<br/>in front of an audience.</div>
                     </div>
@@ -157,8 +157,8 @@ function HomePage() {
 
                 <div className="rows-1">
                     <div className="box">
-                        <Image  className="Ellipse" src="/Ellipse 17.svg"/>
-                        <Image  className="logo" src="/web-design.svg"/>
+                        <Image  className="Ellipse" src={`${process.env.PUBLIC_URL}/Ellipse 17.svg`}/>
+                        <Image  className="logo" src={`${process.env.PUBLIC_URL}/web-design.svg`}/>
                         <div className="text">Web<br/>Design</div>
                         <div className="text-flex">
                             <div>Proficient in creating user-</div>
@@ -170,8 +170,8 @@ function HomePage() {
                     </div>
 
                     <div className="box1">
-                        <Image  className="Ellipse" src="/Ellipse 17.svg"/>
-                        <Image  className="logo" src="/front-end.svg"/>
+                        <Image  className="Ellipse" src={`${process.env.PUBLIC_URL}/Ellipse 17.svg`}/>
+                        <Image  className="logo" src={`${process.env.PUBLIC_URL}/front-end.svg`}/>
                         <div className="text1">Front-End<br/>Development</div>
                         <div className="text-flex">
                                 <div>Skilled in building<br/>responsive web pages with</div>
@@ -187,8 +187,8 @@ function HomePage() {
 
                 <div className="rows-1">
                     <div className="box">
-                        <Image  className="Ellipse" src="/Ellipse 17.svg"/>
-                        <Image  className="logo" src="/back-end.svg"/>
+                        <Image  className="Ellipse" src={`${process.env.PUBLIC_URL}/Ellipse 17.svg`}/>
+                        <Image  className="logo" src={`${process.env.PUBLIC_URL}/back-end.svg`}/>
                         <div className="text">Back-End<br/>Development</div>
                         <div className="text-flex">
                             <div>Experienced in developing<br/>server-side applications </div>
@@ -207,8 +207,8 @@ function HomePage() {
                     </div>
 
                     <div className="box1">
-                        <Image  className="Ellipse" src="/Ellipse 17.svg"/>
-                        <Image  className="logo" src="/other-language.svg"/>
+                        <Image  className="Ellipse" src={`${process.env.PUBLIC_URL}/Ellipse 17.svg`}/>
+                        <Image  className="logo" src={`${process.env.PUBLIC_URL}/other-language.svg`}/>
                         <div className="text">Programing<br/>Languages</div>
                         <div className="text-flex">
                             <div className="text-flex-1">
@@ -233,14 +233,14 @@ function HomePage() {
 
                 <div className="rows-1">    
                     <div className="box">
-                        <Image  className="Ellipse" src="/Ellipse 17.svg"/>
-                        <Image  className="logo" src="/cooking-baking.svg"/>
+                        <Image  className="Ellipse" src={`${process.env.PUBLIC_URL}/Ellipse 17.svg`}/>
+                        <Image  className="logo" src={`${process.env.PUBLIC_URL}/cooking-baking.svg`}/>
                         <div className="text">Cooking and<br/>Baking</div>
                         <div className="text-flex">I love experimenting in the<br/>kitchen, creating delicious<br/>meals and baked treats that<br/>bring joy to others.</div>
                     </div>
                     <div className="box1">
-                        <Image  className="Ellipse" src="/Ellipse 17.svg"/>
-                        <Image  className="logo" src="/singing.svg"/>
+                        <Image  className="Ellipse" src={`${process.env.PUBLIC_URL}/Ellipse 17.svg`}/>
+                        <Image  className="logo" src={`${process.env.PUBLIC_URL}/singing.svg`}/>
                         <div className="text">Sing and<br/>Unwind</div>
                         <div className="text-flex">Singing is my way of<br/>expressing creativity,<br/>whether it's belting out<br/>tunes for fun or performing<br/>in front of an audience.</div>
                     </div>
@@ -261,7 +261,7 @@ function HomePage() {
             </div>
             <div className="outline-rows">
                 <div className="outline">
-                    <Image className="img" src="/Getpass.svg"/>
+                    <Image className="img" src={`${process.env.PUBLIC_URL}/Getpass.svg`}/>
                     <div className="outline-text">
                         <div className="box-text-3">GetPass</div>
                         <div>- An Automated Bus Pass Purchasing System</div>
@@ -269,7 +269,7 @@ function HomePage() {
                     <button className="outline-btn" onClick={goToGetPass}>See More <AddIcon w={2}/></button>
                 </div>
                 <div className="outline">
-                    <Image className="img" src="/fusionX.svg"/>
+                    <Image className="img" src={`${process.env.PUBLIC_URL}/fusionX.svg`}/>
                     <div className="outline-text">
                         <div className="box-text-3">FusionX</div>
                         <div>- An E-commerce Website Builder</div>
@@ -278,7 +278,7 @@ function HomePage() {
                 </div>
             </div>
             <div className="outline">
-                    <Image className="img" src="/fusionx-template.svg"/>
+                    <Image className="img" src={`${process.env.PUBLIC_URL}/fusionx-template.svg`}/>
                     <div className="outline-text">
                         <div className="box-text-3">FusionX-Template</div>
                         <div>- Template for the website built</div>
@@ -292,7 +292,7 @@ function HomePage() {
                 <div className="as">Projects</div>
             </div>
             <div className="outline">
-                    <Image className="img" src="/thatindianmealkit.svg"/>
+                    <Image className="img" src={`${process.env.PUBLIC_URL}/thatindianmealkit.svg`}/>
                     <div className="outline-text">
                         <div className="box-text-3">ThatIndianMealKit</div>
                         <div>- An Online Meal Kit Delivery System</div>
@@ -305,7 +305,7 @@ function HomePage() {
                 <div className="as">Projects</div>
             </div>
             <div className="outline">
-                    <Image className="img" src="/Citi.svg"/>
+                    <Image className="img" src={`${process.env.PUBLIC_URL}/Citi.svg`}/>
                     <div className="outline-text">
                         <div className="box-text-3">CiTi</div>
                         <div>-  An Online Film Ticket Purchasing System</div>
@@ -318,13 +318,13 @@ function HomePage() {
             <div className="footer1">
                 <div className="icon"><EmailIcon w={5} h={5} color={'#F56565'} /></div>
                 <div className="email1">dreamapaulv@gmail.com</div>
-                <Image className="icon2" src="/Github.svg"/>
+                <Image className="icon2" src={`${process.env.PUBLIC_URL}/Github.svg`}/>
                 <a href="https://github.com/dreamapaul" target="_blank" rel="noopener noreferrer" className="email1">Dreama Paul</a>
             </div>
             <div className="footer1">
                 <div className="icon4"><PhoneIcon w={5} h={5} color={'#F56565'} /></div>
                 <div className="email2">9048690760</div>
-                <Image className="icon3" src="/linkedin.svg"/>
+                <Image className="icon3" src={`${process.env.PUBLIC_URL}/linkedin.svg`}/>
                 <a href="https://linkedin.com/in/dreama-paul-a329a2229" target="_blank" rel="noopener noreferrer" className="email2">Dreama Paul</a>
             </div>
         </div>

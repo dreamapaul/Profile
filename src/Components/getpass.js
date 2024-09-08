@@ -36,15 +36,15 @@ function GetPass(){
             <div className="pictures">
                 <button onClick={scrollLeft} className="scroll-button-l"><ArrowBackIcon/></button>
                 <div className="image-row" ref={carouselRef}>
-                    <Image src="/GetPass/Homepage.svg" className="carousel-image" />
-                    <Image src="/GetPass/signuppage.svg" className="carousel-image" />
-                    <Image src="/GetPass/loginpage.svg" className="carousel-image" />
-                    <Image src="/GetPass/userhome.svg" className="carousel-image" />
-                    <Image src="/GetPass/purchasepass-1.svg" className="carousel-image" />
-                    <Image src="/GetPass/purchasepass-2.svg" className="carousel-image" />
-                    <Image src="/GetPass/busdetails.svg" className="carousel-image" />
-                    <Image src="/GetPass/adminhome.svg" className="carousel-image" />
-                    <Image src="/GetPass/searchpage.svg" className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/GetPass/Homepage.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/GetPass/signuppage.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/GetPass/loginpage.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/GetPass/userhome.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/GetPass/purchasepass-1.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/GetPass/purchasepass-2.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/GetPass/busdetails.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/GetPass/adminhome.svg`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/GetPass/searchpage.svg`} className="carousel-image" />
                 </div>
                 <button onClick={scrollRight} className="scroll-button-r"><ArrowForwardIcon/></button>
             </div>

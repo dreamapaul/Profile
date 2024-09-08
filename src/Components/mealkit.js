@@ -36,10 +36,10 @@ function MealKit(){
             <div className="pictures">
                 <button onClick={scrollLeft} className="scroll-button-l"><ArrowBackIcon/></button>
                 <div className="image-row" ref={carouselRef}>
-                    <Image src="/ThatIndianMealKit/home.png" className="carousel-image" />
-                    <Image src="/ThatIndianMealKit/signup.png" className="carousel-image" />
-                    <Image src="/ThatIndianMealKit/login.png" className="carousel-image" />
-                    <Image src="/ThatIndianMealKit/userhome.png" className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/ThatIndianMealKit/home.png`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/ThatIndianMealKit/signup.png`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/ThatIndianMealKit/login.png`} className="carousel-image" />
+                    <Image src={`${process.env.PUBLIC_URL}/ThatIndianMealKit/userhome.png`} className="carousel-image" />
                 </div>
                 <button onClick={scrollRight} className="scroll-button-r"><ArrowForwardIcon/></button>
             </div>
