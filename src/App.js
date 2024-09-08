@@ -9,9 +9,9 @@ import CiTi from "./Components/citi";
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename="/Profile">
         <div className="container">
-          <Routes basename="/Profile">
+          <Routes>
             <Route path="/" element={<HomePage />}></Route>
             <Route path="/fusionx" element={<FusionX/>}></Route>
             <Route path="/getpass" element={<GetPass/>}></Route>
