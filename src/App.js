@@ -11,13 +11,13 @@ function App() {
     <div>
       <Router>
         <div className="container">
-          <Routes>
-            <Route path="/" exact element={<HomePage />}></Route>
-            <Route path="/fusionx"exact element={<FusionX/>}></Route>
-            <Route path="/getpass"exact element={<GetPass/>}></Route>
-            <Route path="/template"exact element={<Template/>}></Route>
-            <Route path="/mealkit"exact element={<MealKit/>}></Route>
-            <Route path="/citi"exact element={<CiTi/>}></Route>
+          <Routes basename="/Profile">
+            <Route path="/" element={<HomePage />}></Route>
+            <Route path="/fusionx" element={<FusionX/>}></Route>
+            <Route path="/getpass" element={<GetPass/>}></Route>
+            <Route path="/template" element={<Template/>}></Route>
+            <Route path="/mealkit" element={<MealKit/>}></Route>
+            <Route path="/citi" element={<CiTi/>}></Route>
           </Routes>
         </div>
       </Router>
