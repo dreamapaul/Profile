@@ -58,7 +58,7 @@ function HomePage() {
                 <button className="btn" onClick={scrollToProfileSection} >Discover my work <ArrowForwardIcon/></button>
                 <button className="btn1" onClick={scrollToProfileSection} >Explore <ArrowForwardIcon/></button>
             </div>
-            <Image className="home" src="/homepage.svg"/>
+            <Image className="home" src={`${process.env.PUBLIC_URL}/homepage.svg`} />
         </div>
 
         <div className="body2">
@@ -69,7 +69,7 @@ function HomePage() {
             <div className="col">
                 <div className="rows">
                     <div className="box">
-                        <Image  className="Ellipse" src="/Ellipse 17.svg"/>
+                        <Image  className="Ellipse" src={`${process.env.PUBLIC_URL}/Ellipse 17.svg`}>
                         <Image  className="logo" src="/web-design.svg"/>
                         <div className="text">Web<br/>Design</div>
                         <div className="text-flex">
